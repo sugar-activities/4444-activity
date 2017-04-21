@@ -1,0 +1,51 @@
+close:
+  type: button
+  left: 507
+  top: 96
+  src: close.png
+  rollover_src: close_rollover.png
+  pressed_src: close_pressed.png
+  action: close
+next:
+  type: button
+  left: 488
+  top: 186
+  src: right.png
+  rollover_src: right_rollover.png
+  pressed_src: right_pressed.png
+  action: next
+previous:
+  type: button
+  left: 49
+  top: 186
+  src: left.png
+  rollover_src: left_rollover.png
+  pressed_src: left_pressed.png
+  action: previous
+description:
+  left: 82
+  width: 419
+  top: 278
+  color: (0, 68, 125)
+  h_align: 2
+  font: font
+element_count:
+  left: 72
+  top: 130
+  width: 438
+  color: (0, 68, 125)
+  font: font
+  h_align: 2
+  text_singular: Tienes 1 elemento en tu mochila
+  text_plural: Tienes %s elementos en tu mochila
+  text_none: No tienes ningún elemento en tu mochila
+elements_pos:
+  left: 100
+  top: 189
+  width: 400
+  interspace: 15
+other:
+  - type: image
+    left: 41
+    top: 82
+    src: backpack/backpack.png

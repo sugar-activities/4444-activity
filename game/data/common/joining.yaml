@@ -1,0 +1,63 @@
+﻿top_container:
+  top: 83
+  after_title: 5
+title:
+  left: 100
+  width: 400
+  color: (0, 68, 125)
+  font: font_30
+  line_height: 30
+  h_align: 2
+description:
+  left: 78
+  top: 117
+  width: 443
+  font: font_19
+  line_height: 19
+  color: (0, 68, 128)
+  h_align: 2
+test_box:
+  left: 63
+  width: 467
+  interline: 0
+  after_left_container: 20
+  bottom: 365
+left:
+  container_box:
+    interline: 10
+    after_text: 10
+  text:
+    font: font_18
+    line_height: 18
+    color: (0, 68, 125)
+    width: 185
+    h_align: 3
+  box:
+    joined:
+      src: tests/joining_box.png
+      selected_src: tests/joining_box_selected.png
+    not_joined:
+      src: tests/joining_box_selected.png
+      selected_src: tests/joining_box_selected.png
+right:
+  container_box:
+    interline: 10
+    after_box: 10
+  text:
+    font: font_18
+    line_height: 18
+    color: (0, 68, 125)
+    width: 185
+    h_align: 1
+  box:
+    joined:
+      src: tests/joining_box.png
+      selected_src: tests/joining_box_selected.png
+    not_joined:
+      src: tests/joining_box_selected.png
+      selected_src: tests/joining_box_selected.png
+arrow:
+  color: (255, 0, 0)
+  width: 5
+    
+    

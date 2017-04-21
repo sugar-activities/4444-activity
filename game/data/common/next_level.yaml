@@ -1,0 +1,25 @@
+﻿other:
+- type: image
+  left: 102
+  top: 53
+  src: tests/next_message_box.png
+- type: button
+  left: 208
+  top: 357
+  src: tests/next.png
+  rollover_src: tests/next_rollover.png
+  pressed_src: tests/next_pressed.png
+  action: next
+text:
+  left: 131
+  top: 90
+  width: 338
+  font: font_18
+  color: (0, 0, 0)
+  h_align: 2
+  line_height: 18
+  texts:
+    1: Has logrado mejorar tu ciudad. El pavimento se encuentra ahora en excelentes condiciones para su óptimo uso. ¡Sigue así! Has desbloqueado el juego de Esquivar.
+    2: Has logrado mejorar tu ciudad. Ahora se ve tupida de árboles y mucho más enriquecida. ¡Sigue así! Has desbloqueado el juego de Asteroides.
+    3: Has logrado mejorar tu ciudad. Ahora se encuentra limpia, para poder disfrutar del lindo paisaje que ofrece. ¡Sigue así! Has desbloqueado el juego de Cartas.
+    4: "¡Felicitaciones! ¡Has terminado! Aprendiste bastante y mejoraste tu ciudad. Como premio: ¡A JUGAR!"

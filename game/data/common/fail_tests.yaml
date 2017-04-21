@@ -1,0 +1,29 @@
+other:
+- type: image
+  left: 102
+  top: 53
+  src: tests/fail_message_box.png
+- type: button
+  left: 208
+  top: 357
+  src: tests/next.png
+  rollover_src: tests/next_rollover.png
+  pressed_src: tests/next_pressed.png
+  action: next
+text:
+  type: text
+  left: 131
+  top: 100
+  width: 338
+  font: font_18
+  color: (0, 0, 0)
+  h_align: 2
+  line_height: 18
+  plural: 
+    Te has equivocado en %(amount)s de tus ejercicios.
+    Lee nuevamente los contenidos para poder responder de
+    forma correcta.
+  singular:
+    Te has equivocado en uno de tus ejercicios.
+    Lee nuevamente los contenidos para poder responder de
+    forma correcta.

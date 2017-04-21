@@ -1,0 +1,125 @@
+layers:
+- name: back
+  items:
+  - type: background
+    dirty:
+      type: image
+      left: 0
+      top: 0
+      src: library/before_background_1.png
+    clean:
+      type: image
+      left: 0
+      top: 0
+      src: library/after_background_1.png
+  - type: trash
+    before:
+    - type: image
+      left: 0
+      top: 97
+      src: library/before_trash_1.png
+    after: []
+  - type: image
+    left: 0
+    top: 0
+    src: library/building_3.png
+  - type: image
+    left: 164
+    top: 0
+    src: library/building_2.png
+  - type: vegetation
+    items:
+    - type: image
+      left: 159
+      top: 103
+      src: library/vegetation_3.png
+    - type: image
+      left: 528
+      top: 112
+      src: library/vegetation_2.png
+    - type: image
+      left: 346
+      top: 221
+      src: library/vegetation_1.png
+- name: character
+  items:
+  - type: trash
+    before: []
+    after:
+    - type: image
+      left: 149
+      top: 135
+      src: library/after_trash_2.png
+    - type: image
+      left: 419
+      top: 250
+      src: library/after_trash_1.png
+  - type: vegetation
+    items:
+    - type: image
+      left: 25
+      top: 23
+      src: library/vegetation_4.png
+  - type: lights
+    items:
+    - type: image
+      left: 205
+      top: 112
+      src: library/light_6.png
+    - type: image
+      left: 446
+      top: 189
+      src: library/light_5.png
+    - type: image
+      left: 530
+      top: 385
+      src: library/light_4.png
+    - type: image
+      left: 312
+      top: 282
+      src: library/light_3.png
+    - type: image
+      left: 90
+      top: 177
+      src: library/light_2.png
+    - type: image
+      left: 179
+      top: 333
+      src: library/light_1.png
+  - type: image
+    left: 95
+    top: 77
+    src: library/sign_3.png
+  - type: image
+    left: 369
+    top: 215
+    src: library/sign_2.png
+  - type: image
+    left: 92
+    top: 85
+    src: library/sign_1.png
+- name: after
+  items:
+  - type: image
+    left: 0
+    top: 208
+    src: library/building_1.png
+- name: gui
+  items:
+  - type: image
+    left: 496
+    top: 10
+    src: corner_map_2.png
+collision:
+  base:
+    trans_x: 50
+    src: library/collision_base.png
+  trash:
+    src: library/collision_trash.png
+  lights:
+    src: library/collision_lights.png
+  vegetation:
+    src: library/collision_vegetation.png
+entrance:
+  src: library/entrance.png
+  to: game.stages.library.Library

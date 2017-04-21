@@ -1,0 +1,24 @@
+previous:
+  left: 31
+  top: 202
+  src: left.png
+  rollover_src: left_rollover.png
+  pressed_src: left_pressed.png
+  action: previous
+  action_sound: turn_page
+next:
+  left: 530
+  top: 202
+  src: right.png
+  rollover_src: right_rollover.png
+  pressed_src: right_pressed.png
+  action: next
+  action_sound: turn_page
+page_count:
+  left: 231
+  top: 353
+  width: 127
+  h_align: 2
+  text: Página %(page)s de %(total)s
+  font: font
+  color: (137, 179, 215)

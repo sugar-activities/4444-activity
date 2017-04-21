@@ -1,0 +1,120 @@
+start:
+  velocity: 1
+  good: 0.55
+  interval: 1200
+step:
+  velocity: 0.1
+  good: -0.1
+  interval: -50
+max:
+  velocity: 1.5
+min:
+  good: 0.15
+  interval: 1000
+score:
+  left: 506
+  top: 12
+  src: invaders/score.png
+good:
+  max: 60
+  left: 14
+  top: 12
+  male:
+    src: jp/good.png
+  female:
+    src: lupe/good.png
+bad:
+  max: 60
+  left: 14
+  top: 12
+  male:
+    src: jp/bad.png
+  female:
+    src: lupe/bad.png
+collision:
+  left: 20
+  top: 10
+  right: 20
+  bottom: 10
+invaders:
+  good:
+    - src: invaders/blue_candy.png
+      points: 25
+      min: 0
+      max: 0
+      velocity: 0.1
+      collision:
+        left: 15
+        top: 10
+        right: 15
+        bottom: 10
+    - src: invaders/green_candy.png
+      points: 15
+      min: 0
+      max: 0
+      velocity: 0.08
+      collision:
+        left: 15
+        top: 10
+        right: 15
+        bottom: 10
+    - src: invaders/pink_candy.png
+      points: 5
+      min: 0
+      max: 0
+      velocity: 0.06
+      collision:
+        left: 15
+        top: 10
+        right: 15
+        bottom: 10
+  bad:
+    - src: invaders/banana_skin.png
+      points: 0
+      min: 0
+      max: 600
+      velocity: 0.06
+      collision:
+        left: 10
+        top: 15
+        right: 10
+        bottom: 10
+    - src: invaders/bottle.png
+      points: 0
+      min: 0
+      max: 0
+      velocity: 0.1
+      collision:
+        left: 10
+        top: 10
+        right: 10
+        bottom: 10
+    - src: invaders/paper.png
+      points: 0
+      min: 0
+      max: 240
+      velocity: 0.06
+      collision:
+        left: 10
+        top: 10
+        right: 10
+        bottom: 10
+game_over:
+  left: 0
+  top: 0
+  male:
+    src: jp/game_over.png
+  female:
+    src: lupe/game_over.png
+intro:
+  intro:
+    left: 100
+    top: 50
+    src: invaders/intro.png
+  next:
+    left: 206
+    top: 357
+    src: next.png
+    rollover_src: next_rollover.png
+    pressed_src: next_pressed.png
+    action: next

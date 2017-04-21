@@ -1,0 +1,96 @@
+layers:
+- name: back
+  items:
+  - type: background
+    dirty:
+      type: image
+      left: 0
+      top: 0
+      src: school/before_background_1.png
+    clean:
+      type: image
+      left: 0
+      top: 0
+      src: school/after_background_1.png
+  - type: trash
+    before:
+    - type: image
+      left: 92
+      top: 143
+      src: school/before_trash_1.png
+    after: []
+  - type: image
+    left: 0
+    top: 0
+    src: school/building_2.png
+  - type: vegetation
+    items:
+    - type: image
+      left: 30
+      top: 121
+      src: school/vegetation_3.png
+    - type: image
+      left: 305
+      top: 172
+      src: school/vegetation_2.png
+    - type: image
+      left: 17
+      top: 299
+      src: school/vegetation_1.png
+- name: character
+  items:
+  - type: trash
+    before: []
+    after:
+    - type: image
+      left: 475
+      top: 134
+      src: school/after_trash_2.png
+    - type: image
+      left: 134
+      top: 317
+      src: school/after_trash_1.png
+  - type: lights
+    items:
+    - type: image
+      left: 312
+      top: 179
+      src: school/light_2.png
+    - type: image
+      left: 116
+      top: 261
+      src: school/light_1.png
+  - type: image
+    left: 464
+    top: 84
+    src: school/sign_2.png
+  - type: image
+    left: 55
+    top: 215
+    src: school/sign_1.png
+  - type: image
+    left: 165
+    top: 142
+    src: school/character_1.png
+- name: after
+  items:
+  - type: image
+    left: 304
+    top: 208
+    src: school/building_1.png
+- name: gui
+  items:
+  - type: image
+    left: 496
+    top: 10
+    src: corner_map_1.png
+collision:
+  base:
+    src: school/collision_base.png
+  trash:
+    src: school/collision_trash.png
+  lights:
+    src: school/collision_lights.png
+entrance:
+  src: school/entrance.png
+  to: game.stages.school.School

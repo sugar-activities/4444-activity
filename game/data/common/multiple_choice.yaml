@@ -1,0 +1,42 @@
+top_container:
+  top: 83
+  after_title: 5
+title:
+  top: 83
+  left: 100
+  width: 400
+  color: (0, 68, 125)
+  font: font_30
+  line_height: 30
+  h_align: 2
+description:
+  left: 78
+  top: 117
+  width: 443
+  font: font_19
+  line_height: 19
+  color: (0, 68, 128)
+  h_align: 2
+test_box:
+  left: 63
+  width: 467
+  interline: 10
+  after_text: 5
+  bottom: 365
+texts:
+  line_height: 20
+  font: font
+  width: 407
+  color: (58, 129, 188)
+  
+check_box:
+  unselected:
+  - type: image
+    src: tests/box.png
+  selected:
+  - type: image
+    src: tests/box.png
+  - type: image
+    src: tests/tick.png
+    left: 1
+    top: -14

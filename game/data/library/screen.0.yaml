@@ -1,0 +1,238 @@
+start_effect:
+  type: blind
+  time: 450
+  callback: after_blind
+layers:
+  - name: background
+    items:
+    - type: image
+      src: library/background_inside.png
+    - type: selected_character
+      male:
+        type: image
+        left: 75
+        top: 120
+        src: jp/library.png
+      female:
+        type: image
+        left: 57
+        top: 116
+        src: lupe/library.png
+  - name: items
+    items: 
+    - type: contents
+      top: 377
+      inter: 10
+      left: 0
+      width: 590
+      contents:
+        1:
+        - name: decl_derechos
+          item:
+            type: button
+            left: 183
+            top: 130
+            rollover_src: library/green_book_2_rollover.png
+            src: library/green_book_2.png
+            action: select_item
+        - name: derechos_humanos
+          item:
+            type: button
+            left: 302
+            top: 200
+            rollover_src: library/red_book_2_rollover.png
+            src: library/red_book_2.png
+            action: select_item
+        - name: origen_derechos
+          item:
+            type: button
+            left: 516
+            top: 201
+            rollover_src: library/blue_book_2_rollover.png
+            src: library/blue_book_2.png
+            action: select_item
+        - name: sujeto_derechos
+          item:
+            type: button
+            left: 272
+            top: 128
+            rollover_src: library/yellow_book_2_rollover.png
+            src: library/yellow_book_2.png
+            action: select_item
+        - name: art_41_const
+          item:
+            type: button
+            left: 325
+            top: 200
+            rollover_src: library/red_book_2_2_rollover.png
+            src: library/red_book_2_2.png
+            action: select_item
+        - name: art_9_nya
+          item:
+            type: button
+            left: 284
+            top: 164
+            rollover_src: library/lilac_book_2_rollover.png
+            src: library/lilac_book_2.png
+            action: select_item
+        - name: ayuda_fechas
+          item:
+            type: button
+            left: 181
+            top: 199
+            rollover_src: library/green_book_1_2_rollover.png
+            src: library/green_book_1_2.png
+            action: select_item            
+        4:
+        - name: gansos
+          item:
+            type: button
+            left: 512
+            top: 185
+            rollover_src: library/green_book_rollover.png
+            src: library/green_book.png
+            action: select_item
+        - name: bienes
+          item:
+            type: button
+            left: 251
+            top: 167
+            rollover_src: library/blue_book_1_rollover.png
+            src: library/blue_book_1.png
+            action: select_item
+        - name: presupuesto_nacional
+          item:
+            type: button
+            left: 196
+            top: 200
+            rollover_src: library/green_book_1_rollover.png
+            src: library/green_book_1.png
+            action: select_item
+        - name: presupuesto_areas
+          item:
+            type: button
+            left: 221
+            top: 134
+            rollover_src: library/lilac_book_1_rollover.png
+            src: library/lilac_book_1.png
+            action: select_item
+        - name: cervantes
+          item:
+            type: button
+            left: 252
+            top: 200
+            rollover_src: library/violet_book_1_rollover.png
+            src: library/violet_book_1.png
+            action: select_item
+        - name: impuestos
+          item:
+            type: button
+            left: 184
+            top: 165
+            rollover_src: library/yellow_book_1_rollover.png
+            src: library/yellow_book_1.png
+            action: select_item 
+        - name: recaudadores
+          item:
+            type: button
+            left: 314
+            top: 165
+            rollover_src: library/red_book_1_rollover.png
+            src: library/red_book_1.png
+            action: select_item
+        - name: importancia_impuestos
+          item:
+            type: button
+            left: 298
+            top: 128
+            rollover_src: library/blue_book_1_1_rollover.png
+            src: library/blue_book_1_1.png
+            action: select_item
+    - type: button
+      left: 17
+      top: 372
+      src: back.png
+      rollover_src: back_rollover.png
+      pressed_src: back_pressed.png
+      action: back
+  - name: dialog
+    items:
+    - type: initial_dialog
+      animations:
+        teacher:
+          both:
+            animation:
+            - src: library/bibliotecologa-boca-3.png
+              duration: 0.1
+            - src: library/bibliotecologa-boca-2.png
+              duration: 0.1
+            - src: library/bibliotecologa-boca-1.png
+              duration: 0.1
+            - src: library/bibliotecologa-boca-2.png
+              duration: 0.1
+            left: 475
+            top: 151
+        character:
+          male:
+            animation:
+            - src: square/jp-boca-3.png
+              duration: 0.1
+            - src: square/jp-boca-2.png
+              duration: 0.1
+            - src: square/jp-boca-1.png
+              duration: 0.1
+            - src: square/jp-boca-2.png
+              duration: 0.1
+            left: 117
+            top: 203
+          female:
+            animation:
+            - src: square/lupe-boca-3.png
+              duration: 0.1
+            - src: square/lupe-boca-2.png
+              duration: 0.1
+            - src: square/lupe-boca-1.png
+              duration: 0.1
+            - src: square/lupe-boca-2.png
+              duration: 0.1
+            left: 116
+            top: 192
+      items:
+        1:
+        - dialog:
+            type: image
+            left: 4
+            top: 99
+            src: library/dialog_1_1.png
+          animation: character
+        - dialog:
+            type: image
+            left: 321
+            top: 32
+            src: library/dialog_1_2.png
+          animation: teacher
+        - dialog:
+            type: image
+            left: 6
+            top: 106
+            src: library/dialog_1_3.png
+          animation: character
+        4:
+        - dialog:
+            type: image
+            left: 23
+            top: 96
+            src: library/dialog_2_1.png
+          animation: character
+        - dialog:
+            type: image
+            left: 321
+            top: 32
+            src: library/dialog_1_2.png
+          animation: teacher
+        - dialog:
+            type: image
+            left: 6
+            top: 106
+            src: library/dialog_1_3.png
+          animation: character

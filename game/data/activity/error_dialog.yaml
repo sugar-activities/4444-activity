@@ -1,0 +1,23 @@
+items:
+- type: "image"
+  left: 30
+  top: 53
+  src: "activities/error.png"
+- type: "button"
+  left: 242
+  top: 379
+  src: "activities/back.png"  
+  rollover_src: "activities/back_rollover.png"  
+  pressed_src: "activities/back_pressed.png"
+  action: ok
+message:
+  type: text
+  left: 50
+  top: 105
+  font: font
+  width: 500
+  height: 100
+  h_align: 2
+  v_align: 2
+  color: (0, 0, 0)
+  

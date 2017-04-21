@@ -1,0 +1,28 @@
+items:
+  - type: image
+    left: 0
+    top: 0
+    src: presentation/screen1/background.png
+  - type: characters
+    male:
+      left: 90
+      top: 100
+      src: presentation/screen1/male_character_disabled.png
+      rollover_src: presentation/screen1/male_character.png
+      selected_src: presentation/screen1/male_character.png
+      value: male
+    female:
+      left: 306
+      top: 108
+      src: presentation/screen1/female_character_disabled.png
+      rollover_src: presentation/screen1/female_character.png
+      selected_src: presentation/screen1/female_character.png
+      value: female
+    button:
+      left: 220
+      top: 362
+      src: next.png
+      rollover_src: next_rollover.png
+      pressed_src: next_pressed.png
+      disabled_src: next_disabled.png
+      action: next

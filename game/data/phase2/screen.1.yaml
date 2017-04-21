@@ -1,0 +1,32 @@
+items:
+  - type: image
+    left: 0
+    top: 0
+    src: phase1/screen1/background.png
+  - type: image
+    left: 228
+    top: 26
+    src: phase2/screen1/level_2.png
+  - type: button
+    left: 386
+    top: 376
+    src: phase1/next.png
+    rollover_src: phase1/next_rollover.png
+    pressed_src: phase1/next_pressed.png
+    action: next
+  - type: selected_character 
+    male:
+      left: 495
+      top: 360
+      src: jp/button.png
+    female:
+      left: 510
+      top: 360
+      src: lupe/button.png
+  - type: button
+    left: 17
+    top: 372
+    src: back.png
+    rollover_src: back_rollover.png
+    pressed_src: back_pressed.png
+    action: previous

@@ -1,0 +1,70 @@
+header:
+  font: font
+  width: 500
+  color: (0, 68, 125)
+  top: 146
+  left: 46
+  h_align: 2
+  plural:
+    pre: "Tienes "
+    pos: " juegos habilitados"
+  singular:
+    pre: "Tienes "
+    pos: " juego habilitado"
+footer:
+  font: font
+  width: 500
+  color: (0, 68, 125)
+  top: 286
+  left: 46
+  h_align: 2
+close:
+  type: button
+  left: 508
+  top: 111
+  src: close.png
+  rollover_src: close_rollover.png
+  pressed_src: close_pressed.png
+  action: close
+other:
+  - type: image
+    left: 41
+    top: 96
+    src: games/background.png
+games:
+  - type: button
+    level: 1
+    left: 70
+    top: 175
+    src: games/invaders.png
+    rollover_src: games/invaders_rollover.png
+    disabled_src: games/invaders_disable.png
+    clazz: game.stages.invaders.InvadersMinigame
+    name: Esquivar
+  - type: button
+    level: 2
+    left: 178
+    top: 175
+    src: games/asteroids.png
+    rollover_src: games/asteroids_rollover.png
+    disabled_src: games/asteroids_disable.png
+    clazz: game.stages.asteroids.AsteroidsMinigame
+    name: Asteroides
+  - type: button
+    level: 3
+    left: 276
+    top: 175
+    src: games/memory.png
+    rollover_src: games/memory_rollover.png
+    disabled_src: games/memory_disable.png
+    clazz: game.stages.memory.MemoryMinigame
+    name: Cartas
+  - type: button
+    level: 4
+    left: 374
+    top: 175
+    src: games/running.png
+    rollover_src: games/running_rollover.png
+    disabled_src: games/running_disable.png
+    clazz: game.stages.running.RunningMinigame
+    name: Saltar

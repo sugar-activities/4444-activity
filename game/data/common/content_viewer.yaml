@@ -1,0 +1,30 @@
+container:
+  height: 256
+  top: 93
+close:
+  left: 545
+  top: 24
+  src: close.png
+  rollover_src: close_rollover.png
+  pressed_src: close_pressed.png
+  action: close
+text:
+  left: 85
+  font: font
+  line_height: 18
+  width: 429
+  height: 204
+  color: (0, 68, 125)
+other:
+# Este es el fondo
+  - type: image
+    left: 20
+    top: 4
+    src: content/content.png
+title:
+  left: 159
+  width: 320
+  h_align: 2
+  line_height: 28
+  font: font_28
+  color: (0, 68, 125)

@@ -1,0 +1,344 @@
+﻿layers:
+  main:
+  - name: background
+    type: "image"
+    left: 20
+    top: 39
+    src: "activities/back1.png"
+  - name: title
+    type: text
+    left: 95
+    top: 94
+    text: |
+      Si ya tienes el código de la actividad
+      ingresa y deja tu opinión sobre el tema de estudio.
+    font: font_19
+    line_height: 19
+    color: (0, 68, 125)
+    width: 392
+    h_align: 2
+  - name: name_label
+    type: text
+    left: 200
+    top: 153
+    text: "Nombre:"
+    font: font
+    line_height: 36
+    width: 193
+    height: 36
+    h_align: 2
+    color: (0, 68, 125) 
+  - name: name_input_box
+    type: image
+    left: 198
+    top: 177
+    src: activities/name_field.png
+  - name: name_input
+    type: text_tab
+    left: 205
+    top: 185
+    font: font
+    line_height: 36
+    width: 190
+    height: 36
+    color: (0, 68, 125)
+    max_chars: 15
+  - name: next_button
+    type: button
+    left: 234
+    top: 324
+    src: activities/enter.png
+    rollover_src: activities/enter_rollover.png
+    pressed_src: activities/enter_pressed.png
+    action: next
+  - name: room_label
+    type: text
+    text: "Código actividad:"
+    left: 200
+    top: 233
+    font: font
+    width: 193
+    height: 36
+    h_align: 2
+    color: (0, 68, 125)
+  - name: room_input_box
+    type: "image"
+    left: 198
+    top: 259
+    src: "activities/activity_field.png"
+  - name: room_input
+    type: text_tab
+    left: 205
+    top: 267
+    font: font
+    line_height: 36
+    width: 190
+    height: 36
+    color: (0, 68, 125)
+  room:
+  - name: back
+    type: image
+    left: 20
+    top: 39
+    src: "activities/back2.png"    
+  - name: code
+    type: text
+    top: 85
+    left: 70
+    width: 460
+    font: font_16
+    height: 25
+    text: "&#c58,129,188!Código:&#c! %s"
+    color: (0, 68, 125)
+    h_align: 2
+  - name: title
+    type: text
+    left: 50
+    width: 500
+    top: 107
+    font: font_30
+    height: 40
+    color: (0, 68, 125)
+    h_align: 2
+  - name: description
+    type: text
+    left: 70
+    width: 460
+    top: 140
+    font: font
+    height: 30
+    color: (0, 68, 125)
+    h_align: 2
+  - name: lines
+    type: image
+    left: 70
+    top: 221
+    src: "activities/lines.png"
+  - name: new_post_button
+    type: button
+    left: 222
+    top: 378
+    src: activities/create.png
+    rollover_src: activities/create_rollover.png
+    pressed_src: activities/create_pressed.png
+    action: new_post
+  - name: back_button
+    type: button
+    left: 10
+    top: 385
+    src: back.png
+    rollover_src: back_rollover.png
+    pressed_src: back_pressed.png
+    action: back
+  - name: pager
+    type: image
+    left: 525
+    top: 376
+    src: "activities/paging_back.png"
+  - name: refresh_button
+    type: button
+    left: 398
+    top: 161
+    src: activities/refresh.png
+    rollover_src: activities/refresh_rollover.png
+    pressed_src: activities/refresh_pressed.png
+    action: refresh 
+  post:
+  - name: back
+    type: image
+    left: 20
+    top: 39
+    src: "activities/back2.png"
+  - name: message_field
+    type: "image"
+    left: 82
+    top: 186
+    src: "activities/message_field.png"
+  - name: new_message_title
+    type: text
+    left: 70
+    width: 460
+    top: 85
+    text: Nuevo mensaje
+    color: (0, 68, 125)
+    font: font_30
+    h_align: 2
+  - name: title
+    type: text
+    left: 70
+    width: 460
+    top: 122
+    color: (0, 68, 125)
+    font: font
+    h_align: 2
+  - name: message_label
+    type: text
+    left: 95
+    top: 156
+    text: "Mensaje:"
+    color: (0, 68, 125)
+    font: font
+  - name: post_button
+    type: button
+    left: 204
+    top: 378
+    src: "activities/publish.png"
+    rollover_src: "activities/publish_rollover.png"
+    pressed_src: "activities/publish_pressed.png"
+    action: post
+  - name: back_button
+    type: button
+    left: 10
+    top: 385
+    src: back.png
+    rollover_src: back_rollover.png
+    pressed_src: back_pressed.png
+    action: back
+  view_post:
+  - name: back
+    type: image
+    left: 20
+    top: 39
+    src: "activities/back2.png"  
+  - name: title
+    type: text
+    left: 70
+    width: 460
+    top: 85
+    color: (0, 68, 125)
+    font: font_24
+    h_align: 2    
+  - name: back_button
+    type: button
+    left: 10
+    top: 385
+    src: back.png
+    rollover_src: back_rollover.png
+    pressed_src: back_pressed.png
+    action: back
+  - type: "image"
+    name: lines_post
+    left: 69
+    top: 138
+    src: "activities/lines_post.png"
+  - name: author
+    type: text
+    left: 90
+    top: 112
+    font: font_22
+    line_height: 26
+    color: (58,129,188)
+    width: 420
+    height: 26
+  - name: post
+    type: text
+    left: 90
+    top: 150
+    font: font
+    line_height: 36
+    color: (0, 68, 125)
+    width: 420
+    height: 230
+  - name: next_post
+    type: "button"
+    left: 314
+    top: 378
+    src: "activities/next_message.png"
+    pressed_src: "activities/next_message_pressed.png"
+    rollover_src: "activities/next_message_rollover.png"
+    action: next_post
+  - name: previous_post
+    type: "button"
+    left: 150
+    top: 378
+    src: "activities/before_message.png"
+    pressed_src: "activities/before_message_pressed.png"
+    rollover_src: "activities/before_message_rollover.png"
+    action: previous_post
+  - name: post_count_back
+    type: "image"
+    left: 269
+    top: 376
+    src: "activities/message_paging_back.png"
+  - name: post_count
+    type: text
+    left: 274
+    top: 390
+    width: 50
+    h_align: 2
+    font: font_22
+    color: (0, 68, 125)
+  logged:
+  - name: login_name
+    type: text
+    left: 45
+    top: 55
+    width: 130
+    height: 50
+    font: font_30
+    color: (0, 68, 125)
+
+clock:
+  src: activities/clock.png
+    
+post_box:
+  top: 190
+  left: 80
+  inter_line: 36
+  items_per_page: 5
+  
+post_item:
+  type: text
+  font: font
+  line_height: 20
+  color: (0, 68, 125)
+  width: 420
+  height: 30
+  
+text_box:
+  type: text_box
+  left: 90
+  top: 198
+  font: font
+  line_height: 36
+  color: (0, 68, 125)
+  width: 408
+  height: 154
+
+pager_post:
+  page_count:
+  
+pager:
+  page_count:
+    left: 530
+    top: 390
+    width: 50
+    h_align: 2
+    text: "%(page)s&#f:font_16!/%(total)s&#f!"
+    font: font_22
+    color: (0, 68, 125)
+  last:
+    type: "button"
+    left: 511
+    top: 416
+    src: "activities/last.png"
+    rollover_src: "activities/last_rollover.png"
+    pressed_src: "activities/last_pressed.png"
+    action: go_to_last
+messages:
+  unknown: Ocurrió un error al comunicarse con el servidor. Por favor inténtalo nuevamente más tarde.
+  no_activity: No existe una actividad con ese código.
+  fill_inputs: Debes ingresar todos los datos.
+background: []
+foreground:
+- type: "image"
+  left: 150
+  top: 4
+  src: "activities/title.png"
+- type: button
+  left: 546
+  top: 24
+  src: close.png
+  rollover_src: close_rollover.png
+  pressed_src: close_pressed.png
+  action: close 

@@ -1,0 +1,70 @@
+start: 0
+step: 1
+max: 9
+levels:
+  0:
+    quantity: 2
+    range: range(0, 5)
+  1:
+    quantity: 3
+    range: range(0, 10)
+  2:
+    quantity: 4
+    range: range(10, 50)
+  3:
+    quantity: 5
+    range: range(0, 100)
+  4:
+    quantity: 6
+    range: range(-100, 0)
+  5:
+    quantity: 7
+    range: map(chr, range(65, 91))
+  6:
+    quantity: 8
+    range: range(-100, 100)
+  7:
+    quantity: 9
+    range: map(chr, range(65, 91))
+  8:
+    quantity: 10
+    range: range(-500, 500)
+  9:
+    quantity: 11
+    selector: random.choice(['numbers', 'letters'])
+    numbers: range(-999, 999)
+    letters: map(chr, range(65, 91))
+score:
+  points: 10
+  left: 506
+  top: 12
+  src: asteroids/score.png
+time:
+  max: 90
+  left: 14
+  top: 12
+  src: asteroids/time.png
+asteroids:
+  - asteroids/green_sea.png
+  - asteroids/green.png
+  - asteroids/pink.png
+  - asteroids/violet.png
+game_over:
+  left: 0
+  top: 0
+  male:
+    src: jp/time_out.png
+  female:
+    src: lupe/time_out.png
+intro:
+  intro:
+    left: 100
+    top: 49
+    src: asteroids/intro.png
+  next:
+    left: 206
+    top: 357
+    src: next.png
+    rollover_src: next_rollover.png
+    pressed_src: next_pressed.png
+    action: next

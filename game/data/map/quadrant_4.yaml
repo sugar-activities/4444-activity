@@ -1,0 +1,114 @@
+layers:
+- name: back
+  items:
+  - type: background
+    dirty:
+      type: image
+      left: 0
+      top: 0
+      src: startup/before_background_1.png
+    clean:
+      type: image
+      left: 0
+      top: 0
+      src: startup/after_background_1.png
+  - type: trash
+    before:
+    - type: image
+      left: 0
+      top: 0
+      src: startup/trash.png
+    after: []
+  - type: image
+    left: 283
+    top: 0
+    src: startup/building_3.png
+  - type: image
+    left: 421
+    top: 60
+    src: startup/building_2.png
+  - type: vegetation
+    items:
+    - type: image
+      left: 328
+      top: 27
+      src: startup/vegetation_2.png
+- name: character
+  items:
+  - type: trash
+    before: []
+    after:
+      - type: image
+        left: 234
+        top: 150
+        src: startup/after_trash_3.png
+      - type: image
+        left: 187
+        top: 314
+        src: startup/after_trash_2.png
+      - type: image
+        left: 71
+        top: 242
+        src: startup/after_trash_1.png
+  - type: vegetation
+    items:
+    - type: image
+      left: 209
+      top: 0
+      src: startup/vegetation_1.png
+  - type: lights
+    items:
+    - type: image
+      left: 497
+      top: 121
+      src: startup/light_4.png
+    - type: image
+      left: 347
+      top: 192
+      src: startup/light_3.png
+    - type: image
+      left: 208
+      top: 113
+      src: startup/light_2.png
+    - type: image
+      left: 148
+      top: 3
+      src: startup/light_1.png
+  - type: image
+    left: 388
+    top: 46
+    src: startup/sign_3.png
+  - type: image
+    left: 244
+    top: 19
+    src: startup/sign_2.png
+  - type: image
+    left: 91
+    top: 97
+    src: startup/sign_1.png
+  - type: image
+    left: 514
+    top: 165
+    src: startup/character_1.png
+- name: after
+  items:
+  - type: image
+    left: 0
+    top: 270
+    src: startup/building_1.png
+- name: gui
+  items:
+  - type: image
+    left: 496
+    top: 10
+    src: corner_map_4.png
+collision:
+  base:
+    trans_y: 50
+    src: startup/collision_base.png
+  trash:
+    src: startup/collision_trash.png
+  lights:
+    src: startup/collision_lights.png
+  vegetation:
+    src: startup/collision_vegetation.png

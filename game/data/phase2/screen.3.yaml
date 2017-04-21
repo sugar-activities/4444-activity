@@ -1,0 +1,12 @@
+items:
+  - type: image
+    left: 0
+    top: 0
+    src: phase1/screen3/background.png
+  - type: button
+    left: 210
+    top: 12
+    src: phase1/screen3/start.png
+    rollover_src: phase1/screen3/start_rollover.png
+    pressed_src: phase1/screen3/start_pressed.png
+    action: next

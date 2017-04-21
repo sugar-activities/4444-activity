@@ -1,0 +1,334 @@
+﻿###########
+# Nivel 1 #
+###########
+
+derechos_humanos:
+  type: multiple
+  title:
+  description: ¿Cuándo se reconocieron los Derechos Humanos?
+  options:
+  - 1948
+  - 1959
+  - 2009
+  answer: [0]
+
+derechos_humanos_2:
+  type: multiple
+  title:
+  description: ¿Cuál fue el hecho que los originó?
+  options:
+  - Revolución Francesa
+  - Segunda Guerra Mundial
+  - La caída de las Torres Gemelas
+  answer: [1]
+
+asociacion_fecha:
+  type: joining
+  title:
+  description: Vincula el acontecimiento con la fecha correspondiente
+  left_options:
+  - 1789
+  - 1948
+  - 1979
+  - 1989
+  - 1993
+  - 2004
+  right_options:
+  - Aprobación del Código de la Niñez y la Adolescencia
+  - Revolución Francesa
+  - Conferencia sobre Derechos Humanos
+  - Declaración Universal de los Derechos Humanos
+  - Convención de los Derechos del Niño
+  - Convención sobre la eliminación de toda forma de discriminación contra la mujer
+  answer: [[0, 1], [1, 3], [2, 5], [3, 4], [4, 2], [5, 0]]
+  visualization:
+    right:
+      text:
+        width: 300
+    test_box:
+      after_left_container: 40
+
+sujeto_derecho:
+  type: true_false
+  title:
+  description: ¿Cuándo eres sujeto de derecho? 
+  options:
+  - Puedes hacer lo que gustes siempre
+  - Puedes pensar y expresarte libremente
+  - Conoces tus derechos y vives en ellos
+  - No concurrir a la escuela si no quieres
+  - Tratas y te tratan como persona
+  - No permites que te traten como objeto
+  answer: [false, true, true, false, true, true]
+
+art_41:
+  type: true_false
+  title:
+  description: ¿Qué garantiza el Artículo Nº 41 de nuestra Constitución? 
+  options:
+  - El cuidado de los niños para su pleno desarrollo es obligación de los padres
+  - El cuidado de los niños es obligación del Estado
+  - Cualquier adulto tiene la obligación
+  answer: [true, false, false]
+
+art_9:
+  type: true_false
+  title:
+  description: ¿Qué garantiza el Artículo Nº 9 del Código de la Niñez y de la Adolescencia?
+  options:
+  - El derecho al voto
+  - A ser tratado en igualdad de condiciones cualquiera sea su sexo, su religión, etnia o condición social
+  - El derecho a la vida
+  answer: [false, true, true]
+
+###########
+# Nivel 2 #
+###########
+
+simbolos:
+  type: multiple
+  title:
+  description: Selecciona los símbolos patrios que representan a nuestro país.
+  options:
+  - Pabellón Nacional # 0
+  - Escudo # 1
+  - Camiseta celeste # 2
+  - Bandera de los Treinta y Tres Orientales # 3
+  - Mate # 4
+  - Himno Nacional # 5
+  - Computadora XO # 6
+  answer: [0, 1, 3, 5]
+
+representantes_deporte:
+  type: multiple
+  title:
+  description: Embajadores de nuestra cultura a través del deporte.
+  options:
+  - Obdulio Varela
+  - Diego Forlán
+  - Rafael Nadal
+  - Michael Jordan
+  answer: [0, 1]
+
+representantes_musica:
+  type: multiple
+  title:
+  description: Representantes de nuestro país a través de la música
+  options:
+  - Mercedes Sosa
+  - Jaime Roos
+  - Larbanois - Carrero
+  - The Beatles
+  - Buitres
+  - Alfredo Zitarrosa
+  answer: [1, 2, 4, 5]
+
+pintores:
+  type: multiple
+  title:
+  description: Son uruguayos
+  options:
+  - Pedro Figari
+  - Juan Manuel Blanes
+  - Salvador Dalí
+  - Leonardo Da Vinci
+  - Joaquín Torres García
+  answer: [0, 1, 4]
+
+patrimonio_uruguay:
+  type: joining
+  title:
+  description: Une con la respuesta correcta
+  left_options:
+  - Colonia del Sacramento
+  - Teatro Solís
+  - Primer monumento a Artigas
+  - Iglesia Matriz
+  - Tango y candombe
+  right_options:
+  - Patrimonio de la humanidad
+  - Patrimonio del Uruguay
+  answer: [[0, 0], [4, 0], [1, 1], [2, 1], [3, 1]]
+
+###########
+# Nivel 3 #
+###########
+  
+nombre_pais:
+  type: multiple
+  title:
+  description: El nombre de nuestro país es
+  options:
+  - Uruguay
+  - República Oriental
+  - República Oriental del Uruguay
+  answer: [2]
+
+pilares_democracia:
+  type: multiple
+  title:
+  description: Los pilares que sostienen a la Democracia son
+  options:
+  - Libertad, igualdad y fraternidad
+  - Hermandad, igualdad y libertad
+  - Fraternidad, independencia y república
+  answer: [0]
+
+ciudadanos:
+  type: true_false
+  title:
+  description: Son ciudadanos naturales de la República Oriental del Uruguay
+  options:
+  - Los hijos de orientales aunque vivan en otro país
+  - Los nacidos en Uruguay
+  - Los extranjeros que viven en Uruguay hace dos años
+  - Los extranjeros que viven en este país desde hace más de cinco años
+  answer: [true, true, false, false]
+
+sistema_gobierno:
+  type: multiple
+  title:
+  description: Nuestro sistema de gobierno es
+  options:
+  - Monarquía parlamentaria
+  - Democrático Republicano
+  - Federación
+  answer: [1]
+
+ciudadanos_2:
+  type: true_false
+  title:
+  description:
+  options:
+  - Todo uruguayo mayor de 18 años tiene obligación de votar en elecciones nacionales y departamentales, y plebiscitos que se realicen
+  - Cualquier ciudadano del Uruguay puede ser electo para ocupar cargos de gobierno
+  - El Presidente de la República puede ser reelecto por dos períodos consecutivos
+  answer: [true, true, false]
+
+servicios:
+  type: joining
+  title:
+  description: Une con lo que corresponde
+  left_options:
+  - Banco República
+  - Parque Rodó
+  - Farmacia 
+  - Hospital de Clínicas
+  - Escuela pública
+  - Colegio
+  - Correo Uruguayo
+  - Shopping Center
+  right_options:
+  - Servicio público
+  - Servicio privado 
+  answer: [[0, 0], [1, 0], [3, 0], [4, 0], [6, 0], [2, 1], [5, 1], [7, 1]]
+  visualization:
+    test_box:
+      after_left_container: 60
+
+###########
+# Nivel 4 #
+###########
+
+refranes:
+  type: joining
+  title:
+  description: Une el refrán con el comentario que te parece adecuado para cada uno
+  left_options:
+  - Muchos pocos hacen un mucho
+  - El que parte y reparte se queda con la mejor parte
+  - Llevadera es la labor cuando muchos comparten la fatiga
+  - El buey solo bien se lame
+  - Hoy por ti mañana por mi
+  right_options:
+  - El que ayuda a otro se ayuda a si mismo
+  - Ayudar es un acto solidario que tiene carácter recíproco
+  - Compartir las tareas es más aliviado para todos
+  - Yo puedo solo
+  - Cuando hay un sentimiento en común se trabaja mejor
+  answer: [[0, 4], [1, 0], [2, 2], [3, 3], [4, 1]]
+  visualization:
+    right:
+      text:
+        width: 210
+        font: font_16
+    left:
+      text:
+        width: 185
+        font: font_16
+    test_box:
+      after_left_container: 35
+
+impuestos:
+  type: joining
+  title:
+  description: Vincula los productos según tengan un 22%, un 10% o estén exonerados de IVA
+  left_options:
+  - Pan común
+  - Leche pasterizada
+  - Libros
+  - Diarios
+  - Electrodomésticos
+  - Agua para consumo familiar básico
+  - Arroz
+  - Yerba
+  - Medicamentos
+  - Energía eléctrica
+  right_options:
+  - 10%
+  - 22%
+  - Exonerado
+  answer: [[0, 0], [1, 2], [2, 2], [3, 2], [4, 1], [5, 2], [6, 0], [7, 0], [8, 0], [9, 1]]
+  visualization:
+    left:
+      text:
+        width: 300
+        font: font_16
+      container_box:
+        interline: 5
+    right:
+      text:
+        font: font_22
+    test_box:
+      after_left_container: 60
+
+derechos_y_obligaciones:
+  type: joining
+  title:
+  description: Vincula con derechos y obligaciones.
+  left_options:
+  - Educación
+  - Votar
+  - Salud
+  - Pagar los impuestos
+  - Justicia
+  - Seguridad 
+  - Conservar el patrimonio nacional
+  - Trabajo
+  - Pedir la factura
+  right_options:
+  - DERECHOS
+  - OBLIGACIONES
+  answer: [[0,0], [0, 1], [1, 1], [2, 0], [3, 1], [4, 0], [5, 0], [6, 1], [7, 0], [8, 0], [8, 1]]
+  visualization:
+    left:
+      text:
+        width: 300
+        font: font_16
+      container_box:
+        interline: 8
+    right:
+      text:
+        font: font_22
+    test_box:
+      after_left_container: 70
+cervantes:
+  type: true_false
+  title:
+  description: Miguel de Cervantes, quien escribió Don Quijote de la Mancha, además fue
+  options:
+  - Un comerciante
+  - Un recaudador de impuestos
+  - Un agricultor
+  - Un soldado
+  answer: [false, true, false, true]

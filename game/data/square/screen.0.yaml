@@ -1,0 +1,137 @@
+start_effect:
+  type: blind
+  time: 450
+  callback: after_blind
+layers:
+  - name: background
+    items:
+    - type: image
+      src: square/background_inside.png
+  - name: items
+    items: 
+    - type: contents
+      top: 377
+      inter: 10
+      left: 0
+      width: 590
+      contents:
+      - name: simbolos
+        item:
+          type: button
+          left: 182
+          top: 90
+          src: square/kid_1.png
+          rollover_src: square/kid_1_rollover.png
+          action: select_item
+      - name: embajadores_deporte
+        item:
+          type: button
+          left: 12
+          top: 136
+          rollover_src: square/kid_2_rollover.png
+          src: square/kid_2.png
+          action: select_item
+      - name: representantes_musica
+        item:
+          type: button
+          left: 92
+          top: 95
+          rollover_src: square/kid_3_rollover.png
+          src: square/kid_3.png
+          action: select_item
+      - name: representantes_musica_2
+        item:
+          type: button
+          left: 366
+          top: 73
+          rollover_src: square/kid_4_rollover.png
+          src: square/kid_4.png
+          action: select_item
+      - name: pintores
+        item:
+          type: button
+          left: 277
+          top: 78
+          rollover_src: square/kid_5_rollover.png
+          src: square/kid_5.png
+          action: select_item
+    - type: button
+      left: 17
+      top: 372
+      src: back.png
+      rollover_src: back_rollover.png
+      pressed_src: back_pressed.png
+      action: back
+  - items:
+    - type: selected_character
+      male:
+        type: image
+        left: 283
+        top: 139
+        src: jp/square.png
+      female:
+        type: image
+        left: 260
+        top: 139
+        src: lupe/square.png
+  - name: dialog
+    items:
+    - type: initial_dialog
+      animations:
+        teacher:
+          both:
+            animation:
+            - src: school/maestra-boca-3.png
+              duration: 0.1
+            - src: school/maestra-boca-2.png
+              duration: 0.1
+            - src: school/maestra-boca-1.png
+              duration: 0.1
+            - src: school/maestra-boca-2.png
+              duration: 0.1
+            left: 508
+            top: 112
+        character:
+          male:
+            animation:
+            - src: square/jp-boca-3.png
+              duration: 0.1
+            - src: square/jp-boca-2.png
+              duration: 0.1
+            - src: square/jp-boca-1.png
+              duration: 0.1
+            - src: square/jp-boca-2.png
+              duration: 0.1
+            left: 317
+            top: 209
+          female:
+            animation:
+            - src: square/lupe-boca-3.png
+              duration: 0.1
+            - src: square/lupe-boca-2.png
+              duration: 0.1
+            - src: square/lupe-boca-1.png
+              duration: 0.1
+            - src: square/lupe-boca-2.png
+              duration: 0.1
+            left: 310
+            top: 202
+      items:
+      - dialog:
+          type: image
+          left: 158
+          top: 103
+          src: square/dialog_1_1.png
+        animation: character
+      - dialog:
+          type: image
+          left: 387
+          top: 32
+          src: square/dialog_1_2.png
+        animation: teacher
+      - dialog:
+          type: image
+          left: 121
+          top: 103
+          src: square/dialog_1_3.png
+        animation: character

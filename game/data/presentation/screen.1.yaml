@@ -1,0 +1,13 @@
+items:
+  - type: image
+    left: 0
+    top: 0
+    src: presentation/screen0/background.jpg
+  - type: button
+    name: start
+    left: 242
+    top: 366
+    src: play.png
+    rollover_src: play_rollover.png
+    pressed_src: play_pressed.png
+    action: start

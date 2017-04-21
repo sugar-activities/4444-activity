@@ -1,0 +1,19 @@
+items:
+- type: image
+  left: 102
+  top: 88
+  src: continue/dialog.png
+- type: button
+  left: 129
+  top: 322
+  rollover_src: continue/no_rollover.png
+  click_src: continue/no_click.png
+  action: continue
+  src: continue/no.png
+- type: button
+  left: 304
+  top: 322
+  click_src: continue/yes_click.png
+  rollover_src: continue/yes_rollover.png
+  src: continue/yes.png
+  action: start

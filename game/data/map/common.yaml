@@ -1,0 +1,220 @@
+character:
+  base:
+    male:
+      small: jp/small/
+      big: jp/big/
+    female:
+      small: lupe/small/
+      big: lupe/big/
+  male:
+    left: 200
+    top: 200
+    standing: 
+      src: jp_quieto.png
+      duration: 5
+      wait:
+        -  src: jp_stand_anim_001.png
+           duration: 0.05
+        -  src: jp_stand_anim_002.png
+           duration: 0.05
+        -  src: jp_stand_anim_003.png
+           duration: 0.55
+        -  src: jp_stand_anim_002.png
+           duration: 0.05
+        -  src: jp_stand_anim_001.png
+           duration: 0.05
+    jumping:
+      src: jp_jump.png
+    walking:
+      sideways:
+        -  src: jp_walkcycle_side_001.png
+           duration: 0.05
+        -  src: jp_walkcycle_side_002.png
+           duration: 0.05    
+        -  src: jp_walkcycle_side_003.png
+           duration: 0.05    
+        -  src: jp_walkcycle_side_004.png
+           duration: 0.05    
+        -  src: jp_walkcycle_side_005.png
+           duration: 0.05    
+        -  src: jp_walkcycle_side_006.png
+           duration: 0.05    
+        -  src: jp_walkcycle_side_007.png
+           duration: 0.05    
+        -  src: jp_walkcycle_side_008.png
+           duration: 0.05     
+        -  src: jp_walkcycle_side_009.png
+           duration: 0.05  
+        -  src: jp_walkcycle_side_010.png
+           duration: 0.05
+      front:
+        -  src: jp_walkcycle_front_001.png
+           duration: 0.05
+        -  src: jp_walkcycle_front_002.png
+           duration: 0.05  
+        -  src: jp_walkcycle_front_003.png
+           duration: 0.05  
+        -  src: jp_walkcycle_front_004.png
+           duration: 0.05  
+        -  src: jp_walkcycle_front_005.png
+           duration: 0.05  
+        -  src: jp_walkcycle_front_006.png
+           duration: 0.05  
+        -  src: jp_walkcycle_front_007.png
+           duration: 0.05  
+        -  src: jp_walkcycle_front_008.png
+           duration: 0.05
+      back:
+        -  src: jp_walkcycle_back_001.png
+           duration: 0.05
+        -  src: jp_walkcycle_back_002.png
+           duration: 0.05
+        -  src: jp_walkcycle_back_003.png
+           duration: 0.05
+        -  src: jp_walkcycle_back_004.png
+           duration: 0.05
+        -  src: jp_walkcycle_back_005.png
+           duration: 0.05
+        -  src: jp_walkcycle_back_006.png
+           duration: 0.05
+        -  src: jp_walkcycle_back_007.png
+           duration: 0.05
+        -  src: jp_walkcycle_back_008.png
+           duration: 0.05
+  female:
+    left: 200
+    top: 200
+    jumping:
+      src: lupe_jump.png
+    standing: 
+      src: lupe_quieta.png
+      duration: 5
+      wait:
+        -  src: lupe_stand_anim_001.png
+           duration: 0.05
+        -  src: lupe_stand_anim_002.png
+           duration: 0.05
+        -  src: lupe_stand_anim_003.png
+           duration: 1.11
+        -  src: lupe_stand_anim_002.png
+           duration: 0.05
+        -  src: lupe_stand_anim_001.png
+           duration: 0.05
+    walking:
+      sideways:
+        -  src: lupe_walkcycle_side_001.png
+           duration: 0.05
+        -  src: lupe_walkcycle_side_002.png
+           duration: 0.05    
+        -  src: lupe_walkcycle_side_003.png
+           duration: 0.05    
+        -  src: lupe_walkcycle_side_004.png
+           duration: 0.05    
+        -  src: lupe_walkcycle_side_005.png
+           duration: 0.05    
+        -  src: lupe_walkcycle_side_006.png
+           duration: 0.05    
+        -  src: lupe_walkcycle_side_007.png
+           duration: 0.05    
+        -  src: lupe_walkcycle_side_008.png
+           duration: 0.05     
+        -  src: lupe_walkcycle_side_009.png
+           duration: 0.05  
+        -  src: lupe_walkcycle_side_010.png
+           duration: 0.05
+      front:
+        -  src: lupe_walkcycle_front_001.png
+           duration: 0.05
+        -  src: lupe_walkcycle_front_002.png
+           duration: 0.05  
+        -  src: lupe_walkcycle_front_003.png
+           duration: 0.05  
+        -  src: lupe_walkcycle_front_004.png
+           duration: 0.05  
+        -  src: lupe_walkcycle_front_005.png
+           duration: 0.05  
+        -  src: lupe_walkcycle_front_006.png
+           duration: 0.05  
+        -  src: lupe_walkcycle_front_007.png
+           duration: 0.05  
+        -  src: lupe_walkcycle_front_008.png
+           duration: 0.05
+      back:
+        -  src: lupe_walkcycle_back_001.png
+           duration: 0.05
+        -  src: lupe_walkcycle_back_002.png
+           duration: 0.05
+        -  src: lupe_walkcycle_back_003.png
+           duration: 0.05
+        -  src: lupe_walkcycle_back_004.png
+           duration: 0.05
+        -  src: lupe_walkcycle_back_005.png
+           duration: 0.05
+        -  src: lupe_walkcycle_back_006.png
+           duration: 0.05
+        -  src: lupe_walkcycle_back_007.png
+           duration: 0.05
+        -  src: lupe_walkcycle_back_008.png
+           duration: 0.05
+gui:
+- type: button
+  left: 10
+  top: 10
+  src: backpack.png
+  rollover_src: backback_rollover.png
+  action: backpack
+- type: button
+  left: 88
+  top: 10
+  src: exercises.png
+  rollover_src: exercises_rollover.png
+  action: exercises
+- type: button
+  left: 170
+  top: 10
+  src: games.png
+  rollover_src: games_rollover.png
+  action: games
+- type: button
+  left: 17
+  top: 372
+  src: back.png
+  rollover_src: back_rollover.png
+  pressed_src: back_pressed.png
+  action: back
+- type: level_counter
+  left: 378
+  top: 24
+  src: 
+    1: level_1.png
+    2: level_2.png
+    3: level_3.png
+    4: level_4.png
+- type: button
+  left: 250
+  top: 12
+  src: activities.png
+  rollover_src: activities_rollover.png
+  action: activity
+counters:
+  backpack:
+    left: 10
+    width: 28
+    top: 16
+    h_align: 2
+    color: (255, 255, 255)
+    font: font
+  tests:
+    left: 94
+    width: 28
+    top: 16
+    h_align: 2
+    color: (255, 255, 255)
+    font: font
+  games:
+    left: 170
+    top: 16
+    width: 28
+    h_align: 2
+    color: (255, 255, 255)
+    font: font

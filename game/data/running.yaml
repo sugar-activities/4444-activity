@@ -1,0 +1,74 @@
+start:
+  velocity: 0.15
+  min_distance: 400
+step:
+  delta_distance: 5
+score:
+  match_points: 25
+  left: 506
+  top: 12
+  src: invaders/score.png
+good:
+  max: 60
+  left: 14
+  top: 12
+  male:
+    src: jp/good.png
+  female:
+    src: lupe/good.png
+bad:
+  max: 60
+  left: 14
+  top: 12
+  male:
+    src: jp/bad.png
+  female:
+    src: lupe/bad.png
+invaders:
+  good:
+    - src: invaders/blue_candy.png
+      points: 25
+      top: 100
+    - src: invaders/green_candy.png
+      points: 15
+      top: 200
+    - src: invaders/pink_candy.png
+      points: 5
+  bad:
+    - src: invaders/banana_skin.png
+    - src: invaders/bottle.png
+    - src: invaders/paper.png
+    - src: running/fence.png
+      aabb:
+        left: 50
+        right: 40
+        top: 40
+    - src: running/trash.png
+      aabb:
+        left: 50
+        right: 40
+        top: 40
+jump:
+  gravity: 650
+  max_impulse: 490
+  impulse_increment: 100
+  impulse_max_time: 275
+intro:
+  intro:
+    left: 100
+    top: 49
+    src: running/intro.png
+  next:
+    left: 206
+    top: 357
+    src: next.png
+    rollover_src: next_rollover.png
+    pressed_src: next_pressed.png
+    action: next     
+game_over:
+  left: 0
+  top: 0
+  male:
+    src: jp/game_over.png
+  female:
+    src: lupe/game_over.png

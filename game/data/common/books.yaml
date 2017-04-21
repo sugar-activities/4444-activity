@@ -1,0 +1,85 @@
+blue_open:
+  type: image
+  rollover_src: book_icons/blue_open_rollover.png
+  src: book_icons/blue_open.png
+  hidden_src: book_icons/blue_open_hidden.png
+green_open:
+  type: image
+  rollover_src: book_icons/green_open_rollover.png
+  src: book_icons/green_open.png
+  hidden_src: book_icons/green_open_hidden.png
+yellow_open:
+  type: image
+  rollover_src: book_icons/yellow_open_rollover.png
+  src: book_icons/yellow_open.png
+  hidden_src: book_icons/yellow_open_hidden.png
+lilac_open:
+  type: image
+  rollover_src: book_icons/lilac_open_rollover.png
+  src: book_icons/lilac_open.png
+  hidden_src: book_icons/lilac_open_hidden.png
+red_open:
+  type: image
+  rollover_src: book_icons/red_open_rollover.png
+  src: book_icons/red_open.png
+  hidden_src: book_icons/red_open_hidden.png
+violet_open:
+  type: image
+  rollover_src: book_icons/violet_open_rollover.png
+  src: book_icons/violet_open.png
+  hidden_src: book_icons/violet_open_hidden.png
+yellow_closed:
+  type: image
+  rollover_src: book_icons/yellow_closed_rollover.png
+  src: book_icons/yellow_closed.png
+  hidden_src: book_icons/yellow_closed_hidden.png
+green_closed:
+  type: image
+  rollover_src: book_icons/green_closed_rollover.png
+  src: book_icons/green_closed.png
+  hidden_src: book_icons/green_closed_hidden.png
+blue_closed:
+  type: image
+  rollover_src: book_icons/blue_closed_rollover.png
+  src: book_icons/blue_closed.png
+  hidden_src: book_icons/blue_closed_hidden.png
+violet_closed:
+  type: image
+  rollover_src: book_icons/violet_closed_rollover.png
+  src: book_icons/violet_closed.png
+  hidden_src: book_icons/violet_closed_hidden.png
+red_closed:
+  type: image
+  rollover_src: book_icons/red_closed_rollover.png
+  src: book_icons/red_closed.png
+  hidden_src: book_icons/red_closed_hidden.png
+pink_closed:
+  type: image
+  rollover_src: book_icons/pink_closed_rollover.png
+  src: book_icons/pink_closed.png
+  hidden_src: book_icons/pink_closed_hidden.png
+red_notebook:
+  type: image
+  rollover_src: notebook_icons/red_rollover.png
+  src: notebook_icons/red.png
+  hidden_src: notebook_icons/red_hidden.png
+violet_notebook:
+  type: image
+  rollover_src: notebook_icons/violet_rollover.png
+  src: notebook_icons/violet.png
+  hidden_src: notebook_icons/violet_hidden.png
+lightblue_notebook:
+  type: image
+  rollover_src: notebook_icons/lightblue_rollover.png
+  src: notebook_icons/lightblue.png
+  hidden_src: notebook_icons/lightblue_hidden.png
+green_notebook:
+  type: image
+  rollover_src: notebook_icons/green_rollover.png
+  src: notebook_icons/green.png
+  hidden_src: notebook_icons/green_hidden.png
+yellow_notebook:
+  type: image
+  rollover_src: notebook_icons/yellow_rollover.png
+  src: notebook_icons/yellow.png
+  hidden_src: notebook_icons/yellow_hidden.png

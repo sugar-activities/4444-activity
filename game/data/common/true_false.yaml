@@ -1,0 +1,54 @@
+top_container:
+  top: 83
+  after_title: 5
+title:
+  top: 83
+  left: 100
+  width: 400
+  color: (0, 68, 125)
+  font: font_30
+  line_height: 30
+  h_align: 2
+description:
+  left: 78
+  top: 117
+  width: 443
+  font: font_19
+  line_height: 19
+  color: (0, 68, 128)
+  h_align: 2
+test_box:
+  left: 63
+  width: 467
+  interline: 10
+  after_text: 20
+  after_false: 20
+  bottom: 365
+text:
+  color: (0, 68, 125)
+  left: 50
+  font: font_18
+  line_height: 18
+  width: 330
+true_box:
+  unselected:
+  - type: image
+    src: tests/true_unselected.png
+    rollover_src: tests/true_unselected_rollover.png
+    hit_over_transparent: True
+  selected:
+  - type: image
+    src: tests/true_selected.png
+    rollover_src: tests/true_selected_rollover.png
+    hit_over_transparent: True
+false_box:
+  unselected:
+  - type: image
+    src: tests/false_unselected.png
+    rollover_src: tests/false_unselected_rollover.png
+    hit_over_transparent: True
+  selected:
+  - type: image
+    src: tests/false_selected.png
+    rollover_src: tests/false_selected_rollover.png
+    hit_over_transparent: True

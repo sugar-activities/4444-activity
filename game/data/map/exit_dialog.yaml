@@ -1,0 +1,19 @@
+items:
+- type: button
+  left: 302
+  top: 357
+  src: exit/ok.png
+  rollover_src: exit/ok_rollover.png
+  pressed_src: exit/ok_click.png
+  action: ok
+- type: button
+  left: 189
+  top: 357
+  src: exit/no.png
+  rollover_src: exit/no_rollover.png
+  pressed_src: exit/no_click.png
+  action: cancel
+- type: image
+  left: 102
+  top: 89
+  src: exit/dialog.png

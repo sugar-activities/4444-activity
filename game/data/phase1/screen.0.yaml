@@ -1,0 +1,41 @@
+items:
+  - type: image
+    left: 0
+    top: 0
+    src: phase1/screen0/background.png
+  - type: image
+    left: 125
+    top: 137
+    src: phase1/level_1.png
+  - type: text
+    left: 64
+    top: 240
+    font: font
+    line_height: 18
+    text: Completa el nivel para mejorar el pavimento de las calles, y así podrás activar el &#c248,181,0!juego de esquivar.&#c!
+    color: (255, 255, 255)
+    width: 470
+    h_align: 2
+  - type: button
+    left: 386
+    top: 376
+    src: phase1/next.png
+    rollover_src: phase1/next_rollover.png
+    pressed_src: phase1/next_pressed.png
+    action: next
+  - type: selected_character 
+    male:
+      left: 495
+      top: 360
+      src: jp/button.png
+    female:
+      left: 510
+      top: 360
+      src: lupe/button.png
+  - type: button
+    left: 17
+    top: 372
+    src: back.png
+    rollover_src: back_rollover.png
+    pressed_src: back_pressed.png
+    action: previous

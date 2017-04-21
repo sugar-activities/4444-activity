@@ -1,0 +1,33 @@
+1:
+  place_quadrant: 1
+  tests:
+  - derechos_humanos
+  - derechos_humanos_2
+  - asociacion_fecha
+  - sujeto_derecho
+  - art_41
+  - art_9
+2:
+  place_quadrant: 2
+  tests:
+  - simbolos
+  - representantes_deporte
+  - representantes_musica
+  - pintores
+  - patrimonio_uruguay
+3:
+  place_quadrant: 0
+  tests:
+  - nombre_pais
+  - pilares_democracia
+  - ciudadanos
+  - sistema_gobierno
+  - ciudadanos_2
+  - servicios
+4:
+  place_quadrant: 1
+  tests:
+  - refranes
+  - impuestos
+  - cervantes
+  - derechos_y_obligaciones

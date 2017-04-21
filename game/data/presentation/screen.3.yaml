@@ -1,0 +1,80 @@
+items:
+  - type: image
+    left: 0
+    top: 0
+    src: presentation/screen2/background.png
+  - type: levels
+    level1:
+      enabled:
+        left: 41
+        top: 88
+        src: presentation/screen2/level1.png
+        rollover_src: presentation/screen2/level1_rollover.png
+        selected_src: presentation/screen2/level1_rollover.png
+        value: level1
+      disabled:
+        left: 41
+        top: 88
+        src: presentation/screen2/level1_disabled.png
+    level2:
+      enabled:
+        left: 304
+        top: 88
+        src: presentation/screen2/level2.png
+        rollover_src: presentation/screen2/level2_rollover.png
+        selected_src: presentation/screen2/level2_rollover.png
+        value: level2
+      disabled:
+        left: 304
+        top: 88
+        src: presentation/screen2/level2_disabled.png
+    level3:
+      enabled:
+        left: 41
+        top: 221
+        src: presentation/screen2/level3.png
+        rollover_src: presentation/screen2/level3_rollover.png
+        selected_src: presentation/screen2/level3_rollover.png
+        value: level3
+      disabled:
+        left: 41
+        top: 221
+        src: presentation/screen2/level3_disabled.png
+    level4:
+      enabled:
+        left: 304
+        top: 221
+        src: presentation/screen2/level4.png
+        rollover_src: presentation/screen2/level4_rollover.png
+        selected_src: presentation/screen2/level4_rollover.png
+        value: level4
+      disabled:
+        left: 304
+        top: 221
+        src: presentation/screen2/level4_disabled.png
+    button:
+      left: 328
+      top: 376
+      src: presentation/screen2/play.png
+      rollover_src: presentation/screen2/play_rollover.png
+      pressed_src: presentation/screen2/play_pressed.png
+      disabled_src: presentation/screen2/play_disabled.png
+      action: next
+    selected_character:
+      male:
+        left: 495
+        top: 360
+        src: jp/button.png
+        disabled_src: jp/button_disabled.png
+      female:
+        left: 510
+        top: 360
+        src: lupe/button.png
+        disabled_src: lupe/button_disabled.png
+  - type: button
+    left: 17
+    top: 372
+    src: back.png
+    rollover_src: back_rollover.png
+    pressed_src: back_pressed.png
+    action: previous

@@ -1,0 +1,140 @@
+layers:
+- name: back
+  items:
+  - type: background
+    dirty:
+      type: image
+      left: 0
+      top: 0
+      src: square/before_background.png
+    clean:
+      type: image
+      left: 0
+      top: 0
+      src: square/after_background.png
+  - type: image
+    left: 0
+    top: 0
+    src: square/buildings_005.png
+  - type: vegetation
+    items:
+    - type: image
+      left: 76
+      top: 121
+      src: square/vegetation_002.png
+  - type: trash
+    before:
+    - type: image
+      left: 15
+      top: 70
+      src: square/before_trash_002.png
+    after: []
+  - type: image
+    left: 254
+    top: 214
+    src: square/char_001.png
+- name: character
+  items:
+  - type: image
+    left: 304
+    top: 177
+    src: square/buildings_002.png
+  - type: trash
+    before:
+    - type: image
+      left: 371
+      top: 196
+      src: square/before_trash_001.png  
+    after:
+    - type: image
+      left: 264
+      top: 240
+      src: square/after_trash_003.png
+    - type: image
+      left: 489
+      top: 63
+      src: square/after_trash_002.png
+    - type: image
+      left: 190
+      top: 81
+      src: square/after_trash_001.png
+  - type: vegetation
+    items:
+    - type: image
+      left: 73
+      top: 72
+      src: square/vegetation_001.png
+  - type: lights
+    items:
+    - type: image
+      left: 59
+      top: 249
+      src: square/lights_007.png
+    - type: image
+      left: 28
+      top: 158
+      src: square/lights_006.png
+    - type: image
+      left: 561
+      top: 0
+      src: square/lights_005.png
+    - type: image
+      left: 535
+      top: 58
+      src: square/lights_004.png
+    - type: image
+      left: 168
+      top: 0
+      src: square/lights_003.png
+    - type: image
+      left: 287
+      top: 23
+      src: square/lights_002.png
+    - type: image
+      left: 376
+      top: 71
+      src: square/lights_001.png
+  - type: image
+    left: 9
+    top: 292
+    src: square/signs_002.png
+  - type: image
+    left: 403
+    top: 21
+    src: square/signs_001.png
+  - type: image
+    left: 492
+    top: 307
+    src: square/buildings_004.png
+  - type: image
+    left: 452
+    top: 309
+    src: square/buildings_003.png
+  - type: image
+    left: 129
+    top: 261
+    src: square/buildings_001.png
+  - type: image
+    left: 297
+    top: 207
+    src: square/char_002.png
+- name: after
+  items: []
+- name: gui
+  items:
+  - type: image
+    left: 496
+    top: 10
+    src: corner_map_3.png
+collision:
+  base:
+    trans_y: 50
+    trans_x: 50
+    src: square/collision_base.png
+  trash:
+    src: square/collision_trash.png
+  lights:
+    src: square/collision_lights.png
+entrance:
+  src: square/entrance.png
+  to: game.stages.square.Square

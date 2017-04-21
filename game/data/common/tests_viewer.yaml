@@ -1,0 +1,37 @@
+pagination:
+  page_count:
+    left: 72
+    top: 375
+    width: 200
+    text: Ejercicio %(page)s de %(total)s
+    font: font
+    color: (137, 179, 215)
+other:
+# Este es el fondo
+  - type: image
+    left: 20
+    top: 4
+    src: tests/background.png
+  - type: button
+    left: 374
+    top: 369
+    src: tests/accept.png
+    rollover_src: tests/accept_rollover.png
+    pressed_src: tests/accept_pressed.png
+    action: confirm
+  - type: selected_character
+    male:
+      left: 495
+      top: 353
+      src: jp/button.png
+    female:
+      left: 510
+      top: 353
+      src: lupe/button.png
+  - type: button
+    left: 544
+    top: 25
+    src: close.png
+    rollover_src: close_rollover.png
+    pressed_src: close_pressed.png
+    action: close

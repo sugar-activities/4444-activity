@@ -1,0 +1,151 @@
+start_effect:
+  type: blind
+  time: 450
+  callback: after_blind
+layers:
+  - name: background
+    items:
+    - type: image
+      src: school/background_inside.png
+    - type: selected_character
+      male:
+        type: image
+        left: 450
+        top: 133
+        src: jp/school.png
+      female:
+        type: image
+        left: 454
+        top: 134
+        src: lupe/school.png
+  - name: items
+    items: 
+    - type: contents
+      top: 377
+      inter: 10
+      left: 0
+      width: 590
+      blackboard:
+        top: 75
+        left: 190
+        width: 257
+        interline: 0
+      contents:
+      - name: definicion_estado
+        item:
+          type: text_selectable
+          font: font_16
+          line_height: 15
+          rollover_color: (255, 190, 0)
+          color: (255, 255, 255)
+          action: select_item
+      - name: ciudadania
+        item:
+          type: text_selectable
+          font: font_16
+          line_height: 15
+          rollover_color: (255, 190, 0)
+          color: (255, 255, 255)
+          action: select_item
+      - name: forma_gobierno
+        item:
+          type: text_selectable
+          font: font_16
+          line_height: 15
+          rollover_color: (255, 190, 0)
+          color: (255, 255, 255)
+          action: select_item
+      - name: democracia
+        item:
+          type: text_selectable
+          font: font_16
+          line_height: 15
+          rollover_color: (255, 190, 0)
+          color: (255, 255, 255)
+          action: select_item
+      - name: elecciones
+        item:
+          type: text_selectable
+          font: font_16
+          line_height: 15
+          rollover_color: (255, 190, 0)
+          color: (255, 255, 255)
+          action: select_item
+      - name: ciudadania_reflexion
+        item:
+          type: text_selectable
+          font: font_16
+          line_height: 15
+          rollover_color: (255, 190, 0)
+          color: (255, 255, 255)
+          action: select_item
+    - type: button
+      left: 17
+      top: 372
+      src: back.png
+      rollover_src: back_rollover.png
+      pressed_src: back_pressed.png
+      action: back
+  - name: dialog
+    items:
+    - type: initial_dialog
+      animations:
+        teacher:
+          both:
+            animation:
+            - src: school/maestra-boca-3.png
+              duration: 0.1
+            - src: school/maestra-boca-2.png
+              duration: 0.1
+            - src: school/maestra-boca-1.png
+              duration: 0.1
+            - src: school/maestra-boca-2.png
+              duration: 0.1
+            left: 110
+            top: 145
+        character:
+          male:
+            animation:
+            - src: school/jp-boca-3.png
+              duration: 0.1
+            - src: school/jp-boca-2.png
+              duration: 0.1
+            - src: school/jp-boca-1.png
+              duration: 0.1
+            - src: school/jp-boca-2.png
+              duration: 0.1
+            left: 498
+            top: 204
+          female:
+            animation:
+            - src: school/lupe-boca-3.png
+              duration: 0.1
+            - src: school/lupe-boca-2.png
+              duration: 0.1
+            - src: school/lupe-boca-1.png
+              duration: 0.1
+            - src: school/lupe-boca-2.png
+              duration: 0.1
+            left: 497
+            top: 199
+      items:
+      - dialog:
+          type: image
+          left: 318
+          top: 90
+          src: school/dialog_1_1.png
+        animation: character
+      - dialog: 
+          type: image
+          left: 9
+          top: 21
+          src: school/dialog_1_2.png
+        animation: teacher
+      - dialog: 
+          type: image
+          left: 326
+          top: 90
+          src: school/dialog_1_3.png
+        animation: character
+  
+  

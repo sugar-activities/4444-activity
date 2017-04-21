@@ -1,0 +1,8 @@
+[Activity]
+name = +Ciudadano
+bundle_id = uy.gub.dgi.masciudadano
+exec = main.sh
+icon = dgi
+activity_version = 2
+host_version = 1
+show_launcher = yes

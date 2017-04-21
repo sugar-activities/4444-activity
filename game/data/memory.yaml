@@ -1,0 +1,44 @@
+start: 2
+step: 1
+score:
+  points: 25
+  left: 506
+  top: 12
+  src: memory/score.png
+time:
+  max: 90
+  left: 14
+  top: 12
+  src: memory/time.png
+board:
+  left: 130
+  top: 12
+  cards:
+    - memory/card_1.png
+    - memory/card_2.png
+    - memory/card_3.png
+    - memory/card_4.png
+    - memory/card_5.png
+    - memory/card_6.png
+    - memory/card_7.png
+    - memory/card_8.png
+  card_back: memory/card_back.png
+game_over:
+  left: 0
+  top: 0
+  male:
+    src: jp/time_out.png
+  female:
+    src: lupe/time_out.png
+intro:
+  intro:
+    left: 100
+    top: 49
+    src: memory/intro.png
+  next:
+    left: 206
+    top: 357
+    src: next.png
+    rollover_src: next_rollover.png
+    pressed_src: next_pressed.png
+    action: next
